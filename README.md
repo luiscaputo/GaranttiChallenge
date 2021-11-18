@@ -38,7 +38,7 @@ Basta abrir o terminal no diretorio do projecto e rodar o seguinte:
 
 ### **Rodando o FrontEnd**
 
-1.  Retire a pasta \_\_garantiiChallenge-frontend de dentro da pasta raiz do projecto
+1.  clone o Repositorio do frontEnd em `https://github.com/luiscaputo/garantiiFrontEnd`
 2.  Rode um Yarn para baixar todas as dependencias
 3.  E rode um yarn start
 4.  Testar os Serviços
