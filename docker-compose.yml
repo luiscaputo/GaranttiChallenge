@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: grandii-api-challenge
+    command: yarn start:dev
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/usr/app
+  grandii-challenge-db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_ROOT_PASSSWORD: garantiiChallenge
+      MYSQL_DATABASE: garanttiChallenge
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+    container_name: grandii-challenge-db
+volumes:
+  db_data: {}
