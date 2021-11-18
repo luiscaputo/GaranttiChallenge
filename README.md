@@ -36,6 +36,17 @@ Basta abrir o terminal no diretorio do projecto e rodar o seguinte:
 4.  Rode um `docker ps/sudo docker ps` - Para verificar se os containers estão rodando
 5.  Testar os endpoints
 
+### **Rodando o FrontEnd**
+
+1.  Retire a pasta \_\_garantiiChallenge-frontend de dentro da pasta raiz do projecto
+2.  Rode um Yarn para baixar todas as dependencias
+3.  E rode um yarn start
+4.  Testar os Serviços
+5.  Nota:
+    _base url_ : `http://localhost:8000/`
+    _HomePage url_ : `http://localhost:8000/home`
+    _Visualização url_ : `http://localhost:8000/posts/2`
+
 ## **Tecnologias/Ferramentas usadas**
 
 - NodeJs
